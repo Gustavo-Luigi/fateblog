@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Fateblog</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+  
+  <header>
+    
+    <div id="logo-nav-organizer">
+      <div id="logo-container">
+        <img class="fateblog-logo" src="icons/logo.svg" alt="">
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="analises.html">Análises</a></li>
+          <li><a href="e-sports.html">E-Sports</a></li>
+          <li><a href="hardware.html">Hardware</a></li>
+        </ul>
+
+        <div id="ham-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="featured-section">
+
+      <a href="analises.html" class="card-link">
+        <div class="featured-card">
+          <picture>
+            <source media="(min-width: 960px)" srcset="images/cards/gwent-960-400.jpg">
+            <source media="(min-width: 660px)" srcset="images/cards/gwent-630-300.jpg">
+            <img class="featured-img" src="images/cards/gwent-300-235.jpg" alt="">
+          </picture>
+          <div class="card-header-container">
+            <p class="card-header-txt">Análises</p>
+          </div>
+          <div id="featured-footer-container">
+            <p class="card-footer-txt">Analisamos Gwent, o jogo de cartas do Witcher</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <section id="section-2">
+      <div class="large-card">
+        <a href="noticias.html" class="card-link">
+          <div class="card">
+            <picture>
+              <source media="(min-width: 960px)" srcset="images/cards/crucible-630-370.jpg">
+              <img src="images/cards/crucible-300-235.jpg" alt="">
+            </picture>
+            <div class="card-header-container">
+              <p class="card-header-txt">Notícias</p>
+            </div>
+            <div class="card-footer-container">
+              <p class="card-footer-txt">Crucible volta para o beta</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <a href="e-sports.html" class="card-link">
+        <div class="card">
+          <img src="images/cards/covid.jpg" alt="">
+          <div class="card-header-container">
+            <p class="card-header-txt">E-Sports</p>
+          </div>
+          <div class="card-footer-container">
+            <p class="card-footer-txt">Como covid afetou os E-Sports</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="hardware.html" class="card-link">
+        <div class="card card-container">
+          <img src="images/cards/rtx2080.png" alt="">
+          <div class="card-header-container">
+            <p class="card-header-txt">Hardware</p>
+          </div>
+          <div class="card-footer-container">
+            <p class="card-footer-txt">Análise da RTX 2080 Super</p>
+          </div>
+        </div>
+      </a>
+
+      <div id="promo-container">
+
+          <p class="promo-header-txt">Top Promoções da Semana</p>
+
+        <div class="promo-grid">
+          <a href="https://store.steampowered.com/agecheck/app/381210/" class="card-link" target="_blank">
+            <div class="promo-item-container">
+              <div>
+                <img class="promo-img" src="images/dbd.jpg" alt="">
+              </div>
+              <div>
+                <p class="promo-txt">Dead by Daylight 60%</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/322330/Dont_Starve_Together/" class="card-link" target="_blank">
+            <div class="promo-item-container">
+              <div>
+                <img class="promo-img" src="images/dont_starve.jpg" alt="">
+              </div>
+              <div>
+                <p class="promo-txt">Don't Starve Together 66%</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/457140/Oxygen_Not_Included/" class="card-link" target="_blank">
+            <div class="promo-item-container" id="item-3">
+              <div class="promo-img-container">
+                <img class="promo-img" src="images/oxygen_not_included.jpg" alt="">
+              </div>
+              <div class="promo-txt-container">
+                <p class="promo-txt">Oxygen Not Included 40%</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/581320/Insurgency_Sandstorm/" class="card-link" target="_blank">
+            <div class="promo-item-container" id="item-4">
+              <div>
+                <img class="promo-img" src="images/insurgency.jpg" alt="">
+              </div>
+              <div>
+                <p class="promo-txt">Insurgency Sandstorm 50%</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="section-3">
+      <a href="lorem-article.html" class="card-link">
+        <div class="card">
+          <img src="images/cards/witcher-3.jpg" alt="">
+          <div class="card-header-container">
+            <p class="card-header-txt">Notícias</p>
+          </div>
+          <div class="card-footer-container">
+            <p class="card-footer-txt">Witcher 3 de graça para PC</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="lorem-article.html" class="card-link">
+        <div class="card card-container">
+          <img src="images/ea.jpg" alt="">
+          <div class="card-header-container">
+            <p class="card-header-txt">Notícias</p>
+          </div>
+          <div class="card-footer-container">
+            <p class="card-footer-txt">EA Games chega ao steam</p>
+          </div>
+        </div>
+      </a>
+
+      <div id="final-card">
+        <a href="lorem-article.html" class="card-link" >
+          <div class="card">
+            <picture>
+              <source media="(min-width: 960px)" srcset="images/cards/valorant-300-235.jpg">
+              <source media="(min-width: 660px)" srcset="images/cards/valorant-630-235.jpg">
+            <img src="images/cards/valorant-300-235.jpg" alt="">
+            </picture>
+            <div class="card-header-container">
+              <p class="card-header-txt">E-Sports</p>
+            </div>
+            <div class="card-footer-container">
+              <p class="card-footer-txt">Valorant: Ignition Series</p>
+            </div>
+          </div>
+        </a> 
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="socials-container">
+      <div>
+        <a href="#">
+          <img src="icons/facebook_round_icon.svg" alt="Logo do Facebook">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+         <img src="icons/youtube_round_icon.svg" alt="Logo do Youtube">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+         <img src="icons/twitter_round_icon.svg" alt="Logo do Twitter">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+         <img src="icons/steam_round_icon.svg" alt="Logo do Steam">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+         <img src="icons/instagram_round_icon.svg" alt="Logo do Instagram">
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="javascript/menu.js"></script>
+  <script src="javascript/carousel.js"></script>
+
+</body>
+</html>
